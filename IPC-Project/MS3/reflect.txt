@@ -1,0 +1,39 @@
+/*
+*****************************************************************************
+                        Assignment 1 - Milestone 3
+Full Name  : Sevastyan Che
+Student ID#: 181071218
+Email      : sche5@myseneca.ca
+Section    : NCC
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+*/
+
+1. 
+Example 1: void dateInput(int* yearPtr, int* monthPtr, int* dayPtr). Receiving the user input here of the appointment, repeated inside other functions,
+such as viewAppointmentSchedule or addAppointment. For each of this dateInput calls,
+it reduces at least ~30 lines and saves time in calling it.
+
+Example 2: char cus_strcpy(char* str2, const char* str1). Copying the string while not using the strlib.h. It is uses a pointer of tempholder,
+to store value of the pointer at str2. After that it copies the value from str1 to str2,
+until the "null". (terminating the cycle)
+
+Example 3: void swap(struct Apointment* a, struct Appointment* b). This function gives ability to swap value inside the structure, which compliment the next function call,
+which used to do the sorting. this is essential function which I can swap data set in different modes.
+
+2. Total - 100 lines but I saved more than few hundreds lines by calling 
+the repeatable functions such as inputIntPositive or inputIntRange, although I changed the code a bit from MS1.
+Starting at the input of Patient Number I used the inputIntPositive to check the value
+input is correct. That was used two times and it includes the inputInt function so it was ~50 more lines saved.
+For the inputIntRange it was used 9 times so it was ~200 lines saved.
+
+3. Throughout the course I've learned how to correctly write code, create solutions for a problem. Developing skills in understanding 
+how to create the solution for the problem is the most important thing for a coder. Plus, I was studying a lot 
+on the internet using GitHub, Youtube and StackOverflow which had a lot of solutions for my questions. For the last 3 weeks I was mostly working
+on IPC-Project for 5-6 hours a day (excluding Sundays). To be honest, I really want to upgrade my current skills in C, 
+because I know its not enough to be skillfull programmer. The hardest thing was about deadlines, they were really
+tough times to times. I hope this would help me on my future C++ course in Seneca.
