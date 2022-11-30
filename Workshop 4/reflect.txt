@@ -1,0 +1,66 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #4
+Full Name  : Sevastyan Che
+Student ID#: 181071218
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+1. Selection is highly important in programming.
+
+do {
+			printf("\nHow many ORANGES do you need? : ");
+			scanf("%d", &orangesamount);
+			if (orangesamount < 0)
+			{
+				printf("ERROR: Value must be 0 or more.");
+			}
+		} while (orangesamount < 0);
+
+        right here we see the a section of code where we have a condition that until int orangesamount < 0,
+        means he will printf the error all the time until the number meets the condition.
+
+
+2. Nested construct - when one programming part included within another programming part. Usually it reduces
+the difficulty of code writing. 
+
+    if (tomatoesamount > 0)
+		{
+			do
+			{
+				printf("Pick some TOMATOES... how many did you pick? : ");
+				scanf("%d", &tomatoeschoose);
+				if (tomatoeschoose > tomatoesamount)
+				{
+					printf("You picked too many... only %d more TOMATO(ES) are needed.\n", tomatoesamount);
+				}
+				else if (tomatoeschoose < 1)
+				{
+					printf("ERROR: You must pick at least 1!\n");
+				}
+				else if (tomatoeschoose < tomatoesamount)
+				{
+					printf("Looks like we still need some TOMATOES...\n");
+					storedata = tomatoesamount - tomatoeschoose;
+					tomatoesamount = storedata;
+					tomatoeschoose = 0;
+				}
+				else if ((tomatoeschoose = tomatoesamount))
+				{
+					printf("Great, that's the tomatoes done!\n\n");
+				}
+			} while (tomatoesamount != tomatoeschoose);
+		}
+
+this is an example of the nested construction. Explanation: We have main choice here of picking amount of tomatoes. 
+We can put any number in there, absolutely, BUT, if it doesnt meet requirements (here it is about that choice should be > 0),
+it will reject your choice either printing error or asking to pick up a bit more tomatoes.
+
+3. Basicaly all the work consists of loops. From the start we see loops using do{} and while{}. 
+But, I was using do-while loop iterative construct. There is another types of loops like for{} or while{}.
+The difference of do-while{} is that this loop will be repeated as long as a condition evaluates to true.
+

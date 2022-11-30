@@ -1,0 +1,29 @@
+﻿  w3p1.c
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(48,30): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(50,57): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(51,55): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(53,48): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(54,50): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(56,62): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(57,54): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(61,30): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(63,58): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(64,56): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(66,49): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(67,50): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(69,63): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(70,54): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(74,30): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(76,58): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(77,56): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(79,49): warning C4244: 'initializing': conversion from 'const double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(80,50): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(82,63): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(83,54): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(95,82): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(96,46): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(98,71): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(99,40): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(101,75): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\w3p1.c(102,36): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Workshop 3 Part 1.vcxproj -> C:\Users\chege\OneDrive\Desktop\BTP100 ROB\Workshop 2\Workshop 3 Part 1\x64\Debug\Workshop 3 Part 1.exe

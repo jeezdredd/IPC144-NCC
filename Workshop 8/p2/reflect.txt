@@ -1,0 +1,55 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #8
+Full Name  : Sevastyan Che
+Student ID#: 181071218
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+1. Each variable in structure contains 8 bytes => 8*10=80. 80 bytes total.
+Although, is w8p2.h we have to declare all parameters for the each string.
+
+example:
+struct ReportData re;
+	re.sku = product2.sku;
+	re.prodPrice = product2.prodPrice;
+	re.calories = product2.calories;
+	re.prodWeight = product2.prodWeight;
+	re.prodWeightKg = convertLbsKg(&product2.prodWeight,&pWKg);
+	re.prodWeightG = convertLbsG(&product2.prodWeight,&pWG); 
+
+
+2. All variables in structure (like shown above). In the first step we get data from a user for each variable.
+
+struct ReportData {
+	int sku;
+	double prodPrice;
+	int calories;
+	double prodWeight;
+	double prodWeightKg;
+	int prodWeightG;
+	double totalServing;
+	double costPerServing;
+	double costCalPerServing;
+};
+
+Next step is to move the data from one structure to another.
+void displayReportData(const struct ReportData re, const int cheapest)
+{
+	struct ReportData re3;
+	re3.sku = re.sku;
+	re3.prodPrice = re.prodPrice;
+	re3.calories = re.calories;
+	re3.prodWeight = re.prodWeight;
+	re3.prodWeightKg = re.prodWeightKg;
+	re3.prodWeightG = re.prodWeightG;
+	re3.totalServing = re.totalServing;
+	re3.costPerServing = re.costPerServing;
+	re3.costCalPerServing = re.costCalPerServing;
+
+Main goal of this structure to get data unmodified to move to a new structure. Although, in the code
+I have many checks if the data meets the requirements, means that we can't insert in structure bad data.

@@ -1,0 +1,19 @@
+****************************************************************************
+                              Reflection
+                             Workshop - #1
+Full Name  : Sevastyan
+Student ID#: 181071218
+Email      : sche5@myseneca.ca
+Section    : NCC
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+****************************************************************************
+
+1. I learned how to use and establish secure SSH and SFTP connection using PuTTY and WinSCP on Windows OS. Although, I learned how to use Microsoft Visual Studio
+and how to create and manage projects.
+2. SSH is basically a secure protocol which allows user to connect securely to any computer in unsecured network. I used SSH in PuTTY,
+to submit and manage files through the Command Line.
+3. SFTP - secured protocol to transfer files over the web. I used SFTP in WinSCP to upload files onto the Seneca College Matrix.

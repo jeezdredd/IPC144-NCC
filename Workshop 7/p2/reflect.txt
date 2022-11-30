@@ -1,0 +1,39 @@
+*****************************************************************************
+                               Reflection
+                             Workshop - #7
+Full Name  : Sevastyan Che
+Student ID#: 181071218
+
+Authenticity Declaration:
+I declare this submission is the result of my own work and has not been
+shared with any other student or 3rd party content provider. This submitted
+piece of work is entirely of my own creation.
+*****************************************************************************
+
+1. I guess the only advantage of using user-defined data types program will be easier
+to understand, maintain and debug. Also, the code size in program takes less space. And it can contain different 
+data types in one structure.
+
+for example: 
+struct playerinfo 
+	{
+		int totallives;
+        int totaltreasures;
+        int pastpositions[maxlength]; 
+        int treasobt;
+		char player;
+        char trail[maxlength]; 
+	};
+
+  (it contains data about player lives, amount of treasures in total, all positions that player had and etc)
+
+
+
+2. We need to create new structure, like presented above with the data of the past games. Logically, after the game ends
+in 3 cases - blown up by bomb, obtained treasure, ran out of moves program should store all data in this new structure and save it, 
+so player can call this variable and get data.
+
+3. Making table with the moves,bombs and treasures in the lass part of W7P2. Mostly I was trying to make output suit the pdf
+document. Other things, like making loops was pretty easy, because I just re-made the w7p1 loops
+so they would suit the new workshop.
+
