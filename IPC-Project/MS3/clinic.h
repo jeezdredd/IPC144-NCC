@@ -1,10 +1,10 @@
 /*
 *****************************************************************************
                         Assignment 1 - Milestone 3
-Full Name  : Alex Chu
-Student ID#: 153954219
-Email      : kchu30@myseneca.ca
-Section    : NJJ
+Full Name  : Sevastyan Che
+Student ID#: 181071218
+Email      : sche5@myseneca.ca
+Section    : NCC
 Authenticity Declaration:
 I declare this submission is the result of my own work and has not been
 shared with any other student or 3rd party content provider. This submitted
